@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <!-- Head -->
-  <head>
+<!-- Head -->
+
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -18,38 +19,44 @@
 
 
     <!-- Bootstrap & MDB -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+    <!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css">
+
     <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?19f3075a2d19613090fe9e16b564e1fe" media="" id="highlight_theme_light">
+
+    
+
+    
 
     <!-- Styles -->
     
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;">
     
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
     <link rel="canonical" href="https://www.taufeeque9.github.io/">
-    
+
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
-
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
+    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?e74e74bf055e5729d44a7d031a5ca6a5" media="none" id="highlight_theme_dark">
+    <script src="/assets/js/theme.js?a420c404ebf9426040ee4f5f80181f2f"></script>
     
 
-  </head>
+</head>
 
-  <!-- Body -->
-  <body class="fixed-top-nav ">
+<!-- Body -->
 
-    <!-- Header --><header>
+<body class="fixed-top-nav ">
+
+  <!-- Header --><header>
 
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
@@ -70,24 +77,23 @@
           <li class="nav-item active">
             <a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
           </li>
-          
 
           <!-- Other pages -->
           <li class="nav-item ">
-            <a class="nav-link" href="/#publications">Publications</a>
+<a class="nav-link" href="/#publications">Publications</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/assets/pdf/CV_Taufeeque.pdf">CV</a>
+<a class="nav-link" href="/assets/pdf/CV_Taufeeque.pdf">CV</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/#social">Contact</a>
+<a class="nav-link" href="/#social">Contact</a>
           </li>
 
           <!-- Toogle theme mode -->
           <li class="toggle-container">
             <button id="light-toggle" title="Change theme">
-              <i class="fas fa-moon"></i>
-              <i class="fas fa-sun"></i>
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
             </button>
           </li>
         </ul>
@@ -103,14 +109,15 @@
   </progress>
 </header>
 
-    <!-- Content -->
-    <div class="container mt-5">
-      <!-- about.html -->
+  <!-- Content -->
+  <div class="container mt-5">
+    
+    <!-- about.html -->
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      <!-- Taufeeque -->
-      Mohammad Taufeeque
+      Mohammad <span class="font-weight-bold">
+        Taufeeque</span>
     </h1>
     <p class="desc"></p>
   </header>
@@ -118,27 +125,31 @@
   <article>
     <div class="profile float-right">
 
+      
+
       <figure>
-
   <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!-- See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and 
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images-->
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
+      <source class="responsive-img-srcset" srcset="
+      /assets/img/prof_pic-480.webp 480w,
+      /assets/img/prof_pic-800.webp 800w,
+      /assets/img/prof_pic-1400.webp 1400w,
+      " sizes="(min-width: 800px) 231.0px, (min-width:
+      576px) 30vw, 95vw" type="image/webp"></source>
     
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
+    <img src="/assets/img/prof_pic.jpg?23e3711019985b059aeb691ab220ff4a" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 
+      
     </div>
 
     <div class="clearfix">
-      <p>I am a research engineer at <a href="https://far.ai/" rel="external nofollow noopener" target="_blank">FAR AI</a> working with Dr. <a href="https://gleave.me/" rel="external nofollow noopener" target="_blank">Adam Gleave</a> on research projects at the intersection of reinforcement learning and natural language processing.
-My current work is focused on interpretability research on large language models and benchmarking imitation learning algorithms.</p>
+      <p>I am a research engineer at <a href="https://far.ai/" rel="external nofollow noopener" target="_blank">FAR AI</a> working with Dr. <a href="https://gleave.me/" rel="external nofollow noopener" target="_blank">Adam Gleave</a> on research projects focusing on AI Safety. I am interested in scalable approaches to mechanistic interpretability and adversarial robustness.</p>
 
 <p>I graduated with a bachelors in  Computer Science from <a href="https://www.cse.iitb.ac.in/" rel="external nofollow noopener" target="_blank">IIT Bombay</a>. 
 For my bachelors thesis, I worked with Prof. <a href="https://www.cse.iitb.ac.in/~shivaram/" rel="external nofollow noopener" target="_blank">Shivaram Kalyanakrishnan</a> to build Fianchetto, an AI agent for the game of Reconnaissance Blind Chess that won the <a href="https://rbc.jhuapl.edu/tournaments/33" rel="external nofollow noopener" target="_blank">NeurIPS 2021 competition</a> on RBC.</p>
@@ -148,19 +159,103 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
 
     </div>
 
+    <!-- News -->
     
-    <div id="publications">
-      <br>
-    </div>
-    <!-- Selected papers --><div class="publications">
+
+    <!-- Latest posts -->
+    
+
+    <!-- Selected papers -->
+    <div id="publications"><br></div>
+    <!-- <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2> --><div class="publications">
   <h2>Publications</h2>
   <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <!-- <div class="col-sm-2 abbr"></div> -->
+<!-- Entry bib key -->
+  <div id="pelrine2023exploiting" class="col-sm-10">
+    <!-- Title -->
+    <div class="title">Exploiting Novel GPT-4 APIs</div>
+    <!-- Author -->
+    <div class="author">
+      
 
-  <!-- Entry bib key -->
+      <a href="https://kellinpelrine.github.io/" rel="external nofollow noopener" target="_blank">Kellin Pelrine*</a>, <em>Mohammad Taufeeque*</em>, <a href="https://pl.linkedin.com/in/michal-zajac-ml/en" rel="external nofollow noopener" target="_blank">Michał Zając</a>, <a href="https://uk.linkedin.com/in/euan-mclean-12a51358" rel="external nofollow noopener" target="_blank">Euan McLean</a>, and <a href="https://www.gleave.me/" rel="external nofollow noopener" target="_blank">Adam Gleave</a>
+</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>arXiv</em>, 2023
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2312.14302" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://far.ai/post/2023-12-exploiting-gpt4-api/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Blog</a>
+      <a href="https://github.com/AlignmentResearch/redteaming-gpt4-finetuning" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GITHUB</a>
+      <a href="https://x.com/farairesearch/status/1737955340229181687" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Thread</a>
+    </div>
+    
+    
+    
+    
+
+    
+
+    </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<!-- Entry bib key -->
+  <div id="tamkin2023codebook" class="col-sm-10">
+    <!-- Title -->
+    <div class="title">Codebook Features: Sparse and Discrete Interpretability for Neural Networks</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <a href="https://www.alextamkin.com/" rel="external nofollow noopener" target="_blank">Alex Tamkin</a>, <em>Mohammad Taufeeque</em>, and <a href="https://cocolab.stanford.edu/ndg" rel="external nofollow noopener" target="_blank">Noah D. Goodman</a>
+</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>arXiv</em>, 2023
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2310.17230" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://ai.stanford.edu/blog/codebook-features/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Blog</a>
+      <a href="https://github.com/taufeeque9/codebook-features" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GITHUB</a>
+      <a href="https://x.com/AlexTamkin/status/1718017324308181200" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Thread</a>
+    </div>
+    
+    
+    
+    
+
+    
+
+    </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<!-- Entry bib key -->
   <div id="imitation_paper" class="col-sm-10">
     <!-- Title -->
     <div class="title">imitation: Clean Imitation Learning Implementations</div>
@@ -168,7 +263,8 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="author">
       
 
-      Adam Gleave, <em>Mohammad Taufeeque</em>, Juan Rocamonde, Erik Jenner, Steven H. Wang, Sam Toyer, Maximilian Ernestus, Nora Belrose, Scott Emmons, and Stuart Russell</div>
+      <a href="https://www.gleave.me/" rel="external nofollow noopener" target="_blank">Adam Gleave*</a>, <em>Mohammad Taufeeque*</em>, <a href="https://www.rocamonde.com/" rel="external nofollow noopener" target="_blank">Juan Rocamonde*</a>, <a href="https://ejenner.com/" rel="external nofollow noopener" target="_blank">Erik Jenner</a>, <a href="https://www.linkedin.com/in/steven-h-wang-58455256/" rel="external nofollow noopener" target="_blank">Steven H. Wang</a>, <a href="https://www.qxcv.net/" rel="external nofollow noopener" target="_blank">Sam Toyer</a>, <a href="https://scholar.google.com/citations?user=2HUwRZsAAAA://dblp.org/pid/145/4807.html" rel="external nofollow noopener" target="_blank">Maximilian Ernestus</a>, <a href="https://twitter.com/norabelrose" rel="external nofollow noopener" target="_blank">Nora Belrose</a>, <a href="https://scottemmons.com/" rel="external nofollow noopener" target="_blank">Scott Emmons</a>, and <a href="https://people.eecs.berkeley.edu/~russell/" rel="external nofollow noopener" target="_blank">Stuart Russell</a>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -183,19 +279,22 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <!-- Links/Buttons -->
     <div class="links">
       <a href="https://arxiv.org/pdf/2211.11972" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-      <a href="https://github.com/HumanCompatibleAI/imitation" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GitHub</a>
+      <a href="https://github.com/HumanCompatibleAI/imitation" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GITHUB</a>
     </div>
+    
+    
+    
+    
 
     
-  </div>
+
+    </div>
 </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <!-- <div class="col-sm-2 abbr"></div> -->
-
-  <!-- Entry bib key -->
+<!-- Entry bib key -->
   <div id="fianchetto" class="col-sm-10">
     <!-- Title -->
     <div class="title">Fianchetto: Speed, Belief, Guile, Caution to Win at Reconnaissance Blind Chess</div>
@@ -203,7 +302,8 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="author">
       
 
-      <em>Mohammad Taufeeque</em>, Nitish Tongia, and Shivaram Kalyanakrishnan</div>
+      <em>Mohammad Taufeeque*</em>, Nitish Tongia*, and <a href="https://www.cse.iitb.ac.in/~shivaram/" rel="external nofollow noopener" target="_blank">Shivaram Kalyanakrishnan</a>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -219,51 +319,20 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="links">
       <a href="/assets/pdf/bachelors_thesis.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
     </div>
+    
+    
+    
+    
 
     
-  </div>
+
+    </div>
 </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <!-- <div class="col-sm-2 abbr"></div> -->
-
-  <!-- Entry bib key -->
-  <div id="msr" class="col-sm-10">
-    <!-- Title -->
-    <div class="title">SoftCompose: Handling Compliance Violations in Advertisements with Neuro-symbolic Classifiers</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      <em>Mohammad Taufeeque</em>, Suresh Parthasarathy, Rahul Ragesh, Shashank Shet, Arun Iyer, Sunita Sarawagi, and Sriram Rajamani</div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    <div class="periodical">
-      <em>submitted to The ACM Web Conference (WWW)</em>, 2023
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      <a href="/assets/pdf/www2023.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-    </div>
-
-    
-  </div>
-</div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-<div class="row">
-  <!-- <div class="col-sm-2 abbr"></div> -->
-
-  <!-- Entry bib key -->
+<!-- Entry bib key -->
   <div id="pmlr_rbc" class="col-sm-10">
     <!-- Title -->
     <div class="title">The Second NeurIPS Tournament of Reconnaissance Blind Chess</div>
@@ -271,7 +340,7 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="author">
       
 
-      Gino Perrotta, Ryan W. Gardner, Corey Lowman, <em>Mohammad Taufeeque</em>, Nitish Tongia, Shivaram Kalyanakrishnan, Gregory Clark, Kevin Wang, Eitan Rothberg, Brady P. Garrison, and
+      <a href="https://www.jhuapl.edu/work/our-organization/research-and-exploratory-development/red-staff-directory/gino-perrotta" rel="external nofollow noopener" target="_blank">Gino Perrotta</a>, <a href="https://www.linkedin.com/in/ryanwgardner" rel="external nofollow noopener" target="_blank">Ryan W. Gardner</a>, <a href="https://www.linkedin.com/in/corey-lowman" rel="external nofollow noopener" target="_blank">Corey Lowman</a>, <em>Mohammad Taufeeque</em>, Nitish Tongia, <a href="https://www.cse.iitb.ac.in/~shivaram/" rel="external nofollow noopener" target="_blank">Shivaram Kalyanakrishnan</a>, <a href="https://www.linkedin.com/in/gregory-clark-1aa42765" rel="external nofollow noopener" target="_blank">Gregory Clark</a>, Kevin Wang, Eitan Rothberg, Brady P. Garrison, and
       <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -301,17 +370,20 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
       <a href="https://proceedings.mlr.press/v176/perrotta22a.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
       <a href="https://proceedings.mlr.press/v176/perrotta22a/perrotta22a.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     </div>
+    
+    
+    
+    
 
     
-  </div>
+
+    </div>
 </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <!-- <div class="col-sm-2 abbr"><abbr class="badge">SPIE</abbr></div> -->
-
-  <!-- Entry bib key -->
+<!-- Entry bib key -->
   <div id="taufeeque2021spie" class="col-sm-10">
     <!-- Title -->
     <div class="title">Multi-camera, multi-person, and real-time fall detection using long short term memory</div>
@@ -319,7 +391,8 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="author">
       
 
-      <em>Mohammad Taufeeque</em>, Samad Koita, Nicolai Spicher, and Thomas M. Deserno</div>
+      <em>Mohammad Taufeeque*</em>, <a href="https://in.linkedin.com/in/samadkoita" rel="external nofollow noopener" target="_blank">Samad Koita*</a>, <a href="https://www.nisp.me/" rel="external nofollow noopener" target="_blank">Nicolai Spicher</a>, and <a href="https://plri.de/en/team/thomas-deserno" rel="external nofollow noopener" target="_blank">Thomas M. Deserno</a>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -334,19 +407,22 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <!-- Links/Buttons -->
     <div class="links">
       <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11601/2580700/Multi-camera-multi-person-and-real-time-fall-detection-using/10.1117/12.2580700.short" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      <a href="https://github.com/taufeeque9/HumanFallDetection" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GitHub</a>
+      <a href="https://github.com/taufeeque9/HumanFallDetection" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">GITHUB</a>
     </div>
+    
+    
+    
+    
 
     
-  </div>
+
+    </div>
 </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <!-- <div class="col-sm-2 abbr"></div> -->
-
-  <!-- Entry bib key -->
+<!-- Entry bib key -->
   <div id="pomdp" class="col-sm-10">
     <!-- Title -->
     <div class="title">Randomized POMDP Planning Algorithms</div>
@@ -354,7 +430,8 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="author">
       
 
-      <em>Mohammad Taufeeque</em>, and Shivaram Kalyanakrishnan</div>
+      <em>Mohammad Taufeeque</em>, and <a href="https://www.cse.iitb.ac.in/~shivaram/" rel="external nofollow noopener" target="_blank">Shivaram Kalyanakrishnan</a>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -370,62 +447,84 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
     <div class="links">
       <a href="/assets/pdf/Report_POMDP.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
     </div>
+    
+    
+    
+    
 
     
-  </div>
+
+    </div>
 </div>
 </li>
 </ol>
 </div>
+
     <!-- Social -->
     <div id="social">
       <div class="social">
         <div class="contact-icons">
-          <a href="mailto:%39%74%61%75%66%65%65%71%75%65%39@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a> 
-<a href="https://scholar.google.com/citations?user=OKO5dwcAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> 
-<a href="https://github.com/taufeeque9" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a> 
-<a href="https://www.linkedin.com/in/mtaufeeque" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a> 
+          <a href="mailto:%39%74%61%75%66%65%65%71%75%65%39@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fa-solid fa-envelope"></i></a>
+<a href="https://scholar.google.com/citations?user=OKO5dwcAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+<a href="https://github.com/taufeeque9" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com/in/mtaufeeque" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://twitter.com/taufeeque_m" title="X" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
 
         </div>
-      </div>
 
-      <div class="contact-note">
-        
-      </div>
+        <div class="contact-note">
+          
+        </div>
 
+      </div>
     </div>
   </article>
 
 </div>
-    </div>
+    
+  </div>
 
-    <!-- Footer -->    
+  <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Mohammad  Taufeeque. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright 2024 Mohammad  Taufeeque. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
 
       </div>
     </footer>
 
-    <!-- JavaScripts -->
-    <!-- jQuery -->
+  <!-- JavaScripts -->
+  <!-- jQuery -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- Bootsrap & MDB scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <!-- Bootsrap & MDB scripts -->
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="/assets/js/mdb.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
-    <!-- Masonry & imagesLoaded -->
+  <!-- Masonry & imagesLoaded -->
   <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
     
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
-  <script defer src="/assets/js/common.js"></script>
 
-    <!-- MathJax -->
+  
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?7b30caa5023af4af8408a472dc4e1ebb"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js?d633890033921b33e0ceb13d22340a9c"></script>
+  <script defer src="/assets/js/common.js?e5d83f07c60d027dc469208a97f76877"></script>
+  <script defer src="/assets/js/copy_code.js?9b43d6e67ddc7c0855b1478ee4c48c2d" type="text/javascript"></script>
+
+  
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+  <!-- MathJax -->
   <script type="text/javascript">
     window.MathJax = {
       tex: {
@@ -436,8 +535,8 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
-    
+  
+  
 
 <!-- Scrolling Progress Bar -->
 <script type="text/javascript">
@@ -516,5 +615,7 @@ In the summer of 2020, I interned at the PLRI lab of <a href="https://www.tu-bra
   }
 </script>
 
-  </body>
+  
+</body>
+
 </html>
