@@ -1,0 +1,102 @@
+\documentclass[letterpaper, 11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[
+  style=ieee,
+  url=false,
+  doi=false,
+  maxbibnames=99,
+  sorting=ydnt,
+  dashed=false
+]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{MidnightBlue}
+
+% More predefined colors can be found in
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+% Example photograph taken from Wikimedia Commons
+% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
+
+\usepackage{simplecv}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{comment}
+
+% basic information under the name
+\newcommand{\basicinfo}[1]{ \centerline{\sffamily{#1}} }
+\DeclareBibliographyCategory{asterisk}
+
+\boldname{Taufeeque}{Mohammad}{M.}
+
+\renewcommand{\finentrypunct}{}
+\DeclareFieldFormat[article,inproceedings,incollection]{title}{\textit{#1}}
+\AtBeginBibliography{\small}
+
+\begin{document}
+  % Heading
+  % \headinginline{Name Surname}{
+  %     % Website: \website{example.com} \\
+  %     % Email: \email{example@example.edu} \\
+  %     % LinkedIn: \linkedin{name-surname} \\
+  %     % GitHub: \github{example}
+
+  % }
+  \begin{center}
+    {\Huge \textcolor{color-title}{Mohammad Taufeeque}}
+  \end{center}
+  \vspace*{-2mm}
+  \basicinfo{ \faGlobe - \href{https://taufeeque9.github.io/}{taufeeque9.github.io}
+  %   \faPhone ~ (+39) 380-698-xxxx
+  \textperiodcentered\
+ \faEnvelope ~ \href{mailto:9taufeeque9@gmail.com}{9taufeeque9@gmail.com} \textperiodcentered\
+ \faGithub ~ \href{https://github.com/taufeeque9}{github/taufeeque9} \textperiodcentered\
+ \faLinkedin ~ \href{https://linkedin.com/in/mtaufeeque}{mtaufeeque} }
+  % \headingphoto{Name Surname}{
+  %     Website: \website{example.com} \\
+  %     Email: \email{example@example.edu} \\
+  %     LinkedIn: \linkedin{name-surname} \\
+  %     GitHub: \github{example}
+  % }{photo.jpg}
+
+  % Page One
+  \vspace{-3mm}
+  \import{sections/}{education.tex}
+  \vspace{-6mm}
+  \import{sections/}{publications.tex}
+  \vspace{-4mm}
+  \import{sections/}{experience.tex}
+  \vspace{-4mm}
+  % \import{sections/}{publications.tex}
+  % \import{sections/}{keyprojects.tex}
+
+  % \pagebreak
+
+  % Page Two
+  \vspace{-3mm}
+  \import{sections/}{awards.tex}
+  % \sidebyside
+  \vspace{-3mm}
+  {\import{sections/}{skills.tex}}
+  % {\import{sections/}{languages.tex}}
+  % \import{sections/}{projects.tex}
+  % \vspace{-3mm}
+  % \section{Relevant Coursework}
+  %    \begin{tabular}{p{4cm} p{14.5cm}}
+  %      \textbf{Machine Learning} & Foundations of Intelligent Learning Agents, Topics in Learning Algorithms, AI \& ML, AGI Safety Fundamentals by EA Cambridge, Formal Methods in ML, Medical Image Computing, ML in Remote Sensing II, Data Analysis \& Interpretation\\
+  %      \textbf{Computer Science} & Data Structures and Algorithms, Operating Systems, Computer Architecture, Database \& Information Systems, Implementation of Programming Languages, Automata Theory, Design \& Analysis of Algorithms, Discrete Structures, Computer Networks, Software Systems Lab, Design and Analysis of Algorithm, Logic for CS\\
+  %      \vspace{-2pt}\textbf{Mathematics} &
+  %      \vspace{-2pt} Numerical Analysis, Calculus, Linear Algebra, Differential Equations\\
+  %    \end{tabular}
+
+  % , Data Structures \& Algorithms, Design \& Analysis of Algorithms, Linear Algebra, Numerical Analysis
+
+  \vspace{-3mm}
+  \import{sections/}{teaching.tex}
+  \vspace{-3mm}
+  % \import{sections/}{extracurricular.tex}
+\end{document}
+
+% Q1 Remove RGPS?
+% Add another point in RBC

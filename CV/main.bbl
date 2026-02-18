@@ -1,0 +1,441 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{taufeeque2026obfuscationatlas}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=25725a8145449822570978e59ca33895}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=fa93338561a8a6916ee9b4c447327ab3}{%
+           family={Heimersheim},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f443af3aea10cb9b968ba9d4c0dcbd0d}{%
+           family={Gleave},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f210a7146898d09978e1d7f8aab044a2}{%
+           family={Cundy},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{893baf9605c09546099645f6d3e0e319}
+      \strng{fullhash}{987670d6bb90ba8666ff5800986e9217}
+      \strng{fullhashraw}{987670d6bb90ba8666ff5800986e9217}
+      \strng{bibnamehash}{987670d6bb90ba8666ff5800986e9217}
+      \strng{authorbibnamehash}{987670d6bb90ba8666ff5800986e9217}
+      \strng{authornamehash}{893baf9605c09546099645f6d3e0e319}
+      \strng{authorfullhash}{987670d6bb90ba8666ff5800986e9217}
+      \strng{authorfullhashraw}{987670d6bb90ba8666ff5800986e9217}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{sortyear}{2026}
+      \field{title}{{The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes}}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2602.15515
+      \endverb
+    \endentry
+    \entry{taufeeque2026path}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=25725a8145449822570978e59ca33895}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e12a1669081cfe428304357f7a46beaf}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={Aaron\bibnamedelima David},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f443af3aea10cb9b968ba9d4c0dcbd0d}{%
+           family={Gleave},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ecea33091356ece9b9680e134cc7f0f}{%
+           family={Garriga-Alonso},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Adrià},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{893baf9605c09546099645f6d3e0e319}
+      \strng{fullhash}{2437b0add1a83a77e48451ae66577f97}
+      \strng{fullhashraw}{2437b0add1a83a77e48451ae66577f97}
+      \strng{bibnamehash}{2437b0add1a83a77e48451ae66577f97}
+      \strng{authorbibnamehash}{2437b0add1a83a77e48451ae66577f97}
+      \strng{authornamehash}{893baf9605c09546099645f6d3e0e319}
+      \strng{authorfullhash}{2437b0add1a83a77e48451ae66577f97}
+      \strng{authorfullhashraw}{2437b0add1a83a77e48451ae66577f97}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{\textbf{ICLR 2026}}
+      \field{note}{\textbf{Spotlight at Mechanistic Interpretability Workshop, NeurIPS 2025}}
+      \field{sortyear}{2026}
+      \field{title}{{Path Channels and Plan Extension Kernels: a Mechanistic Description of Planning in a Sokoban {RNN}}}
+      \true{nocite}
+    \endentry
+    \entry{pmlr-v235-tamkin24a}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=1209f7e3599bd390bab72d9cca887763}{%
+           family={Tamkin},
+           familyi={T\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=756df96cf0bc7ba020c983f39f65d6d9}{%
+           family={Taufeeque},
+           familyi={T\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d98a11597b0645b5e5c970ce0a562a96}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{33a03c6183f4a58fa9027d16f7d2307a}
+      \strng{fullhash}{2d5ea36b0db24887b3fdf92289abb36a}
+      \strng{fullhashraw}{2d5ea36b0db24887b3fdf92289abb36a}
+      \strng{bibnamehash}{2d5ea36b0db24887b3fdf92289abb36a}
+      \strng{authorbibnamehash}{2d5ea36b0db24887b3fdf92289abb36a}
+      \strng{authornamehash}{33a03c6183f4a58fa9027d16f7d2307a}
+      \strng{authorfullhash}{2d5ea36b0db24887b3fdf92289abb36a}
+      \strng{authorfullhashraw}{2d5ea36b0db24887b3fdf92289abb36a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding neural networks is challenging in part because of the dense, continuous nature of their hidden states. We explore whether we can train neural networks to have hidden states that are sparse, discrete, and more interpretable by quantizing their continuous features into what we call codebook features. Codebook features are produced by finetuning neural networks with vector quantization bottlenecks at each layer, producing a network whose hidden features are the sum of a small number of discrete vector codes chosen from a larger codebook. Surprisingly, we find that neural networks can operate under this extreme bottleneck with only modest degradation in performance. In addition, we can control a model’s behavior by finding codes that activate on a desired behavior, then activating those same codes during generation. We first validate codebook features on a finite state machine dataset with far more hidden states than neurons. In this setting, our approach overcomes the superposition problem by assigning states to distinct codes, and we find that we can make the neural network behave as if it is in a different state by activating the code for that state. We then train Transformer language models with up to 410M parameters on two natural language datasets. We identify codes in these models representing diverse, disentangled concepts (ranging from negative emotions to months of the year) and find that we can guide the model to generate different topics and pronoun genders by activating these codes during inference. Overall, codebook features appear to be a promising unit of analysis and control for neural networks and interpretability. Our codebase and models are open-sourced at this URL.}
+      \field{booktitle}{\textbf{ICML 2024}}
+      \field{month}{21--27 Jul}
+      \field{sortyear}{2024}
+      \field{title}{{Codebook Features: Sparse and Discrete Interpretability for Neural Networks}}
+      \true{nocite}
+      \verb{file}
+      \verb https://raw.githubusercontent.com/mlresearch/v235/main/assets/tamkin24a/tamkin24a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v235/tamkin24a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v235/tamkin24a.html
+      \endverb
+    \endentry
+    \entry{taufeeque2024planningrecurrentneuralnetwork}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=756df96cf0bc7ba020c983f39f65d6d9}{%
+           family={Taufeeque},
+           familyi={T\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7cba78d93b0b35fbfaaf517933e1868f}{%
+           family={Quirke},
+           familyi={Q\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6d8d228971673e8f790f47f09a0bb49c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f210a7146898d09978e1d7f8aab044a2}{%
+           family={Cundy},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e12a1669081cfe428304357f7a46beaf}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={Aaron\bibnamedelima David},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f443af3aea10cb9b968ba9d4c0dcbd0d}{%
+           family={Gleave},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a945b058dd6635a23b58d5a815b13244}{%
+           family={Garriga-Alonso},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Adria},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0ee83a52e639a98f3dcb4349f2934ba}
+      \strng{fullhash}{07a16b8c97f0e06f77b07cb41eb82803}
+      \strng{fullhashraw}{07a16b8c97f0e06f77b07cb41eb82803}
+      \strng{bibnamehash}{07a16b8c97f0e06f77b07cb41eb82803}
+      \strng{authorbibnamehash}{07a16b8c97f0e06f77b07cb41eb82803}
+      \strng{authornamehash}{c0ee83a52e639a98f3dcb4349f2934ba}
+      \strng{authorfullhash}{07a16b8c97f0e06f77b07cb41eb82803}
+      \strng{authorfullhashraw}{07a16b8c97f0e06f77b07cb41eb82803}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\textbf{Mechanistic Interpretability Workshop, ICML 2024}}
+      \field{sortyear}{2024}
+      \field{title}{{Planning in a recurrent neural network that plays Sokoban}}
+      \true{nocite}
+    \endentry
+    \entry{pelrine2023exploiting}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=1240711d04c2db47c5c37d91ab13c6a9}{%
+           family={Pelrine*},
+           familyi={P\bibinitperiod},
+           given={Kellin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=65117d5326ba1bdf3cc45c8cc32d6510}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque*}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7cf4267d81dee550aa8b02092fb5afa3}{%
+           family={Zając},
+           familyi={Z\bibinitperiod},
+           given={Michał},
+           giveni={M\bibinitperiod}}}%
+        {{hash=998e2e4310ad11a5e4b69354043bd6aa}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={Euan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f443af3aea10cb9b968ba9d4c0dcbd0d}{%
+           family={Gleave},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{40a7de7f0fd45e623a85d49a694f53f9}
+      \strng{fullhash}{aa57b06f1481af396ca79aba448e766b}
+      \strng{fullhashraw}{aa57b06f1481af396ca79aba448e766b}
+      \strng{bibnamehash}{aa57b06f1481af396ca79aba448e766b}
+      \strng{authorbibnamehash}{aa57b06f1481af396ca79aba448e766b}
+      \strng{authornamehash}{40a7de7f0fd45e623a85d49a694f53f9}
+      \strng{authorfullhash}{aa57b06f1481af396ca79aba448e766b}
+      \strng{authorfullhashraw}{aa57b06f1481af396ca79aba448e766b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{sortyear}{2023}
+      \field{title}{{Exploiting Novel GPT-4 APIs}}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2312.14302
+      \endverb
+    \endentry
+    \entry{imitation_paper}{inproceedings}{}{}
+      \name{author}{10}{}{%
+        {{hash=31e43a64cfe0f6a07d14ab6f3b50838c}{%
+           family={Gleave*},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=65117d5326ba1bdf3cc45c8cc32d6510}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque*}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c4bd8a0c4d676fb1154bd48ee4646c37}{%
+           family={Rocamonde*},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=772a8bc4eb5dc1c389df6ecc82dd0a27}{%
+           family={Jenner},
+           familyi={J\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ac901596625be0bf5191a98ac6bf384d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a189b95fcc860a2d12f3874c6276845c}{%
+           family={Toyer},
+           familyi={T\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b76527a76a4bb1c475b635a35021d0ef}{%
+           family={Ernestus},
+           familyi={E\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21ffe65d17265f9407e5c3a7ec4079c0}{%
+           family={Belrose},
+           familyi={B\bibinitperiod},
+           given={Nora},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f63a64d03d23b5738f8853445b5e62d1}{%
+           family={Emmons},
+           familyi={E\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f53b8e8d777407b5c6e7d4b70470a4f}
+      \strng{fullhash}{27df4843efc979b5404e3656622a7f3e}
+      \strng{fullhashraw}{27df4843efc979b5404e3656622a7f3e}
+      \strng{bibnamehash}{27df4843efc979b5404e3656622a7f3e}
+      \strng{authorbibnamehash}{27df4843efc979b5404e3656622a7f3e}
+      \strng{authornamehash}{5f53b8e8d777407b5c6e7d4b70470a4f}
+      \strng{authorfullhash}{27df4843efc979b5404e3656622a7f3e}
+      \strng{authorfullhashraw}{27df4843efc979b5404e3656622a7f3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{sortyear}{2022}
+      \field{title}{{imitation: Clean Imitation Learning Implementations}}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2211.11972
+      \endverb
+      \verb{eprint}
+      \verb 2211.11972
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2211.11972
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2211.11972
+      \endverb
+    \endentry
+    \entry{pmlr_rbc}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=bea507207e72c6b4181380aff1f4af4e}{%
+           family={Perrotta},
+           familyi={P\bibinitperiod},
+           given={Gino},
+           giveni={G\bibinitperiod}}}%
+        {{hash=67f7552b9338b3fc113c2e2f46186a36}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Ryan\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5ef127a24ecf61cf04fd8bc1fc536985}{%
+           family={Lowman},
+           familyi={L\bibinitperiod},
+           given={Corey},
+           giveni={C\bibinitperiod}}}%
+        {{hash=25725a8145449822570978e59ca33895}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6d7321178d7f2653c6721ac3ea8f8015}{%
+           family={Tongia},
+           familyi={T\bibinitperiod},
+           given={Nitish},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d5a8e608f744dc333340fb3ffc2fd2e5}{%
+           family={Kalyanakrishnan},
+           familyi={K\bibinitperiod},
+           given={Shivaram},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{49073173de422dabdcb36c04fc81a096}
+      \strng{fullhash}{475956befd24213442a2116548e9b11e}
+      \strng{fullhashraw}{475956befd24213442a2116548e9b11e}
+      \strng{bibnamehash}{475956befd24213442a2116548e9b11e}
+      \strng{authorbibnamehash}{475956befd24213442a2116548e9b11e}
+      \strng{authornamehash}{49073173de422dabdcb36c04fc81a096}
+      \strng{authorfullhash}{475956befd24213442a2116548e9b11e}
+      \strng{authorfullhashraw}{475956befd24213442a2116548e9b11e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{\textbf{NeurIPS 2021 Competitions Track}}
+      \field{sortyear}{2022}
+      \field{title}{{The Second NeurIPS Tournament of Reconnaissance Blind Chess}}
+      \true{nocite}
+      \verb{file}
+      \verb https://proceedings.mlr.press/v176/perrotta22a/perrotta22a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v176/perrotta22a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v176/perrotta22a.html
+      \endverb
+    \endentry
+    \entry{tub}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=65117d5326ba1bdf3cc45c8cc32d6510}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque*}},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a072415281e8b930c1b313fd42f5b584}{%
+           family={Koita*},
+           familyi={K\bibinitperiod},
+           given={Samad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0df752f8c6b79021bbb6d9ed5571f295}{%
+           family={Spicher},
+           familyi={S\bibinitperiod},
+           given={Nicolai},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7fb172dd93e39908b5c6d0208c78859d}{%
+           family={Deserno},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa94241668fc898f8b7466341bed8d71}
+      \strng{fullhash}{b4d4d19140b1abed5a6b21b581689b40}
+      \strng{fullhashraw}{b4d4d19140b1abed5a6b21b581689b40}
+      \strng{bibnamehash}{b4d4d19140b1abed5a6b21b581689b40}
+      \strng{authorbibnamehash}{b4d4d19140b1abed5a6b21b581689b40}
+      \strng{authornamehash}{fa94241668fc898f8b7466341bed8d71}
+      \strng{authorfullhash}{b4d4d19140b1abed5a6b21b581689b40}
+      \strng{authorfullhashraw}{b4d4d19140b1abed5a6b21b581689b40}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{\textbf{SPIE Medical Imaging 2021}}
+      \field{sortyear}{2021}
+      \field{title}{{Multi-camera, multi-person, and real-time fall detection using long short term memory}}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1117/12.2580700
+      \endverb
+      \verb{urlraw}
+      \verb https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11601/2580700/Multi-camera-multi-person-and-real-time-fall-detection-using/10.1117/12.2580700.short
+      \endverb
+      \verb{url}
+      \verb https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11601/2580700/Multi-camera-multi-person-and-real-time-fall-detection-using/10.1117/12.2580700.short
+      \endverb
+      \keyw{Video processing,Multiple cameras,Fall detection,Human pose estimation,Machine learning,Long Short-Term Memory,Neural networks,Deep learning}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
