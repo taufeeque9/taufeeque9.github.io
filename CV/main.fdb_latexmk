@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber main"] 1777789208.53584 "main.bcf" "main.bbl" "main" 1777789219.00386 0
-  "main.bcf" 1777789218.57639 108602 0a1c0d194b418f2a457620c39dbbb5d0 "xelatex"
-  "papers.bib" 1777789095.6121 8061 365a50c56672daf9e64883a4d36d317b ""
+["biber main"] 1777789669.91678 "main.bcf" "main.bbl" "main" 1777789679.74286 0
+  "main.bcf" 1777789679.35741 108602 0a1c0d194b418f2a457620c39dbbb5d0 "xelatex"
+  "papers.bib" 1777789523.61823 8061 365a50c56672daf9e64883a4d36d317b ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1777789218.69168 "main.xdv" "main.pdf" "main" 1777789219.00644 0
-  "main.xdv" 1777789218.57739 69120 9914a3bba2b347b494844f8a36f7ec64 "xelatex"
+["xdvipdfmx"] 1777789679.46619 "main.xdv" "main.pdf" "main" 1777789679.74539 0
+  "main.xdv" 1777789679.35841 69120 7e45ccd178064f32a0cc49f5f179e12a "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1777789216.80395 "main.tex" "main.xdv" "main" 1777789219.00402 0
+["xelatex"] 1777789677.66779 "main.tex" "main.xdv" "main" 1777789679.74298 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -133,18 +133,18 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1775014713 5954837 05b517c1a452f7b5a408af38e6f5d7bd ""
   "/opt/texlive/texdir/texmf.cnf" 1775014585 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "main.aux" 1777789218.56639 1834 1d0dcd66417c0889816228c9f0e496a2 "xelatex"
-  "main.bbl" 1777789212.87033 19894 57e137a02e293e9df259309434b89f1f "biber main"
-  "main.out" 1777789218.57239 737 471b42d060a3a4cd9d603900183dafeb "xelatex"
-  "main.run.xml" 1777789218.57739 2464 09c8d251033dd4f765be141783c1309f "xelatex"
-  "main.tex" 1777789095.6121 3542 b3c3fd9c302d9a5cd07c6af254b11ca1 ""
-  "sections/awards.tex" 1777789095.6131 1338 77f4bb4634746a67a7063584278bc490 ""
-  "sections/education.tex" 1777789095.61452 889 353828f7c8fee4b123dee40e05470145 ""
-  "sections/experience.tex" 1777789095.61452 6169 fdef90c926bd2f3dde2b317a75cc72d0 ""
-  "sections/publications.tex" 1777789095.61452 2473 f6416de37952774ff55a48420cccf677 ""
-  "sections/skills.tex" 1777789095.61452 383 d24ea9b3c05e22457a899ae64b5cf61d ""
-  "sections/teaching.tex" 1777789095.61452 4381 b75082b1a3faf71e15ed22e69beaeb1b ""
-  "simplecv.sty" 1777789095.61452 4678 62ec546a3a9ecc35341bf02cfc5d7f65 ""
+  "main.aux" 1777789679.34841 1834 1d0dcd66417c0889816228c9f0e496a2 "xelatex"
+  "main.bbl" 1777789674.03238 19894 57e137a02e293e9df259309434b89f1f "biber main"
+  "main.out" 1777789679.35341 737 471b42d060a3a4cd9d603900183dafeb "xelatex"
+  "main.run.xml" 1777789679.35741 2464 09c8d251033dd4f765be141783c1309f "xelatex"
+  "main.tex" 1777789523.61823 3542 b3c3fd9c302d9a5cd07c6af254b11ca1 ""
+  "sections/awards.tex" 1777789523.61923 1338 77f4bb4634746a67a7063584278bc490 ""
+  "sections/education.tex" 1777789523.61991 889 353828f7c8fee4b123dee40e05470145 ""
+  "sections/experience.tex" 1777789523.61991 6169 fdef90c926bd2f3dde2b317a75cc72d0 ""
+  "sections/publications.tex" 1777789523.61991 2473 f6416de37952774ff55a48420cccf677 ""
+  "sections/skills.tex" 1777789523.61991 383 d24ea9b3c05e22457a899ae64b5cf61d ""
+  "sections/teaching.tex" 1777789523.61991 4381 b75082b1a3faf71e15ed22e69beaeb1b ""
+  "simplecv.sty" 1777789523.61991 4678 62ec546a3a9ecc35341bf02cfc5d7f65 ""
   (generated)
   "main.aux"
   "main.bcf"
