@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
-    \entry{taufeeque2026obfuscationatlas}{article}{}{}
+    \entry{taufeeque2026obfuscationatlas}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=25725a8145449822570978e59ca33895}{%
            family={\textbf{M.\bibnamedelimi Taufeeque}},
@@ -53,13 +53,11 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
+      \field{booktitle}{\textbf{ICML 2026}}
+      \field{note}{\textbf{Spotlight}}
       \field{sortyear}{2026}
       \field{title}{{The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes}}
       \true{nocite}
-      \verb{eprint}
-      \verb 2602.15515
-      \endverb
     \endentry
     \entry{taufeeque2026path}{inproceedings}{}{}
       \name{author}{4}{}{%
