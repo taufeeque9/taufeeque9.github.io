@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.1)  18 FEB 2026 09:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.1)  3 MAY 2026 05:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **main.tex
 (./main.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo
@@ -22,7 +22,7 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \c@table=\count278
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
@@ -125,7 +125,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip58
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language90
+\blx@langwohyphens=\language91
 \c@mincomprange=\count324
 \c@maxcomprange=\count325
 \c@mincompwidth=\count326
@@ -305,16 +305,16 @@ Package biblatex Info: XeTeX detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-12-29 L3 programming layer (loader) 
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
 \g__graphics_track_int=\count406
 \g__pdfannot_backend_int=\count407
 \g__pdfannot_backend_link_int=\count408
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2025-12-29 L3 programming layer (loader) 
+(biblatex)             2026-03-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -330,7 +330,7 @@ Package: simplecv
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip73
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -342,7 +342,7 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -355,12 +355,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen149
+\@linkdim=\dimen151
 \Hy@linkcounter=\count410
 \Hy@pagecounter=\count411
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -368,18 +368,18 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 \Hy@SavedSpaceFactor=\count412
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count413
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen150
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen152
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -389,15 +389,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count414
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count415
 \c@Item=\count416
 \c@Hfootnote=\count417
@@ -405,7 +405,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \pdfm@box=\box53
 \c@Hy@AnnotLevel=\count418
 \HyField@AnnotCount=\count419
@@ -428,12 +428,12 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip75
 \aftertitleunit=\skip76
-\ttl@plus=\dimen153
-\ttl@minus=\dimen154
+\ttl@plus=\dimen155
+\ttl@minus=\dimen156
 \ttl@toksa=\toks18
-\titlewidth=\dimen155
-\titlewidthlast=\dimen156
-\titlewidthfirst=\dimen157
+\titlewidth=\dimen157
+\titlewidthlast=\dimen158
+\titlewidthfirst=\dimen159
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
@@ -445,22 +445,22 @@ Package: import 2020/04/01  v 6.2
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count422
 \mult@box=\box55
-\multicol@leftmargin=\dimen158
+\multicol@leftmargin=\dimen160
 \c@unbalance=\count423
 \c@collectmore=\count424
 \doublecol@number=\count425
 \multicoltolerance=\count426
 \multicolpretolerance=\count427
-\full@width=\dimen159
-\page@free=\dimen160
-\premulticols=\dimen161
-\postmulticols=\dimen162
+\full@width=\dimen161
+\page@free=\dimen162
+\premulticols=\dimen163
+\postmulticols=\dimen164
 \multicolsep=\skip77
 \multicolbaselineskip=\skip78
 \partial@page=\box56
 \last@line=\box57
 \mc@boxedresult=\box58
-\maxbalancingoverflow=\dimen163
+\maxbalancingoverflow=\dimen165
 \mult@rightbox=\box59
 \mult@grightbox=\box60
 \mult@firstbox=\box61
@@ -504,9 +504,9 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@minrows=\count428
 \c@columnbadness=\count429
 \c@finalcolumnbadness=\count430
-\last@try=\dimen164
-\multicolovershoot=\dimen165
-\multicolundershoot=\dimen166
+\last@try=\dimen166
+\multicolovershoot=\dimen167
+\multicolundershoot=\dimen168
 \mult@nat@firstbox=\box99
 \colbreak@box=\box100
 \mc@col@check@num=\count431
@@ -542,7 +542,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 (/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip79
-\enit@outerparindent=\dimen167
+\enit@outerparindent=\dimen169
 \enit@toks=\toks19
 \enit@inbox=\box101
 \enit@count@id=\count433
@@ -579,25 +579,25 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \@temptokenb=\toks20
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/12/30 v25.18 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
 \babel@savecnt=\count436
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
+ne 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
+ne 2080.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
+e 2082.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
+e 2083.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
+on input line 2084.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
+on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2101.
-\U@D=\dimen168
-\l@unhyphenated=\language91
+on input line 2111.
+\U@D=\dimen170
+\l@unhyphenated=\language92
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read3
@@ -606,7 +606,7 @@ on input line 2101.
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
 Package babel Info: Importing font and identification data for russian
-(babel)             from babel-ru.ini. Reported on input line 4321.
+(babel)             from babel-ru.ini. Reported on input line 4330.
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
@@ -615,7 +615,7 @@ Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 )
 Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4321.
+(babel)             from babel-en.ini. Reported on input line 4330.
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -640,8 +640,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
 )
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
@@ -669,23 +669,23 @@ Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box102
 )
-\tc@llx=\dimen171
-\tc@lly=\dimen172
-\tc@urx=\dimen173
-\tc@ury=\dimen174
+\tc@llx=\dimen173
+\tc@lly=\dimen174
+\tc@urx=\dimen175
+\tc@ury=\dimen176
 Package trimclip Info: Using driver 'tc-xetex.def'.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/tc-xetex.def
 File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen175
-\adjbox@Height=\dimen176
-\adjbox@Depth=\dimen177
-\adjbox@Totalheight=\dimen178
-\adjbox@pwidth=\dimen179
-\adjbox@pheight=\dimen180
-\adjbox@pdepth=\dimen181
-\adjbox@ptotalheight=\dimen182
+\adjbox@Width=\dimen177
+\adjbox@Height=\dimen178
+\adjbox@Depth=\dimen179
+\adjbox@Totalheight=\dimen180
+\adjbox@pwidth=\dimen181
+\adjbox@pheight=\dimen182
+\adjbox@pdepth=\dimen183
+\adjbox@ptotalheight=\dimen184
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
@@ -695,27 +695,27 @@ Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box103
 \sift@deathcycles=\count440
-\@vwid@loff=\dimen183
-\@vwid@roff=\dimen184
+\@vwid@loff=\dimen185
+\@vwid@roff=\dimen186
 )
 ==> First Aid for varwidth.sty applied!
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 \MT@toks=\toks24
 \MT@tempbox=\box104
 \MT@count=\count441
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
-LaTeX Info: Redefining \leftprotrusion on input line 1088.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks25
-LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen185
+\MT@outer@kern=\dimen187
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count442
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype-xetex.def
-File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 443.
 LaTeX Info: Redefining \lslig on input line 451.
 \MT@outer@space=\skip94
@@ -723,7 +723,7 @@ LaTeX Info: Redefining \lslig on input line 451.
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
@@ -732,19 +732,19 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen186
+\col@sep=\dimen188
 \ar@mcellbox=\box105
-\extrarowheight=\dimen187
+\extrarowheight=\dimen189
 \NC@list=\toks26
 \extratabsurround=\skip95
 \backup@length=\skip96
 \ar@cellbox=\box106
 )
-\TX@col@width=\dimen188
-\TX@old@table=\dimen189
-\TX@old@col=\dimen190
-\TX@target=\dimen191
-\TX@delta=\dimen192
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
 \TX@cols=\count443
 \TX@ftn=\toks27
 )
@@ -799,9 +799,9 @@ X
 \l__fontspec_emdef_int=\count458
 \l__fontspec_strong_int=\count459
 \l__fontspec_strongdef_int=\count460
-\l__fontspec_tmpa_dim=\dimen193
-\l__fontspec_tmpb_dim=\dimen194
-\l__fontspec_tmpc_dim=\dimen195
+\l__fontspec_tmpa_dim=\dimen195
+\l__fontspec_tmpb_dim=\dimen196
+\l__fontspec_tmpc_dim=\dimen197
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -894,8 +894,8 @@ Package hyperref Info: Link coloring OFF on input line 37.
 
 LaTeX Info: Redefining \th on input line 37.
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen196
-\MT@vwid@rightmargin=\dimen197
+\MT@vwid@leftmargin=\dimen198
+\MT@vwid@rightmargin=\dimen199
 LaTeX Info: Redefining \microtypecontext on input line 37.
 Package microtype Info: Applying patch `item' on input line 37.
 Package microtype Info: Applying patch `toc' on input line 37.
@@ -910,7 +910,7 @@ Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+File: mt-LatinModernRoman.cfg 2026/02/26 v1.2 microtype config. file: Latin Mod
 ern Roman (RS)
 )
 Package csquotes Info: Redefining character " on input line 37.
@@ -1011,7 +1011,7 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 471B42D060A3A4CD9D603900183DAFEB;737.
@@ -1020,10 +1020,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26255 strings out of 468179
- 506776 string characters out of 5435044
- 1490107 words of memory out of 5000000
- 54618 multiletter control sequences out of 15000+600000
+ 26261 strings out of 467992
+ 506919 string characters out of 5431321
+ 1493609 words of memory out of 5000000
+ 54806 multiletter control sequences out of 15000+600000
  630972 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,11n,106p,1841b,5032s stack positions out of 10000i,1000n,20000p,200000b,200000s
