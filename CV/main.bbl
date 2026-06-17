@@ -54,7 +54,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{\textbf{ICML 2026}}
-      \field{note}{\textbf{Oral} (top 0.7\%)}
+      \field{note}{\textbf{Oral (top 0.7\%)}}
       \field{sortyear}{2026}
       \field{title}{{The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes}}
       \true{nocite}

@@ -1,18 +1,18 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[114] biber:342> INFO - === Wed Jun 17, 2026, 07:19:26
-[135] Biber.pm:421> INFO - Reading 'main.bcf'
-[201] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[213] Biber.pm:4487> INFO - Processing section 0
-[222] Biber.pm:4678> INFO - Looking for bibtex file 'papers.bib' for section 0
-[223] bibtex.pm:1713> INFO - LaTeX decoding ...
-[241] bibtex.pm:1519> INFO - Found BibTeX data source 'papers.bib'
-[339] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[339] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[339] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[339] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[352] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[357] bbl.pm:779> INFO - Output to main.bbl
-[357] Biber.pm:132> WARN - legacy month field '21--27 Jul' in entry 'pmlr-v235-tamkin24a' is not an integer - this will probably not sort properly.
-[358] Biber.pm:132> WARN - BibTeX subsystem: /tmp/biber_tmp_K_nf/4cba211c7098ce6d56874590d4a06a86_10.utf8, line 125, warning: 132 characters of junk seen at toplevel
-[358] Biber.pm:134> INFO - WARNINGS: 2
+[94] biber:342> INFO - === Wed Jun 17, 2026, 07:27:49
+[111] Biber.pm:421> INFO - Reading 'main.bcf'
+[178] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[190] Biber.pm:4487> INFO - Processing section 0
+[200] Biber.pm:4678> INFO - Looking for bibtex file 'papers.bib' for section 0
+[201] bibtex.pm:1713> INFO - LaTeX decoding ...
+[219] bibtex.pm:1519> INFO - Found BibTeX data source 'papers.bib'
+[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[318] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[318] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[332] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[337] bbl.pm:779> INFO - Output to main.bbl
+[337] Biber.pm:132> WARN - legacy month field '21--27 Jul' in entry 'pmlr-v235-tamkin24a' is not an integer - this will probably not sort properly.
+[337] Biber.pm:132> WARN - BibTeX subsystem: /tmp/biber_tmp_J1c3/4cba211c7098ce6d56874590d4a06a86_10.utf8, line 125, warning: 132 characters of junk seen at toplevel
+[338] Biber.pm:134> INFO - WARNINGS: 2
