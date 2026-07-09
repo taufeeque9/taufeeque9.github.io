@@ -108,8 +108,6 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/generic/intcalc/intcalc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-INPUT /opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
@@ -166,6 +164,9 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/ru/babel-ru.ini
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-russian/russianb.ldf
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-russian/russianb.ldf
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-russian/russianb.ldf
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/cyrl2uni.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/cyrl2uni.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/cyrl2uni.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-english/english.ldf
@@ -257,6 +258,8 @@ INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
+INPUT /opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT ./main.out
 INPUT ./main.out
 INPUT main.out

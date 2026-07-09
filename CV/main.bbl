@@ -54,7 +54,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{\textbf{ICML 2026}}
-      \field{note}{\textbf{Oral (top 0.7\%)}}
+      \field{note}{\textbf{\href{https://icml.cc/virtual/2026/awards_detail}{Outstanding Paper Honorable Mention}} (top 7 of 23,918 submissions), Oral}
       \field{sortyear}{2026}
       \field{title}{{The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes}}
       \true{nocite}
