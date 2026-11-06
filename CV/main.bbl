@@ -21,11 +21,11 @@
   \datalist[entry]{ydnt/global//global/global/global}
     \entry{taufeeque2026obfuscationatlas}{inproceedings}{}{}
       \name{author}{4}{}{%
-        {{hash=25725a8145449822570978e59ca33895}{%
-           family={\textbf{M.\bibnamedelimi Taufeeque}},
+        {{hash=65117d5326ba1bdf3cc45c8cc32d6510}{%
+           family={\textbf{M.\bibnamedelimi Taufeeque*}},
            familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=fa93338561a8a6916ee9b4c447327ab3}{%
-           family={Heimersheim},
+        {{hash=0c15aac4313351ea1eb9ffaa0c04feda}{%
+           family={Heimersheim*},
            familyi={H\bibinitperiod},
            given={Stefan},
            giveni={S\bibinitperiod}}}%
@@ -40,24 +40,23 @@
            given={Chris},
            giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{893baf9605c09546099645f6d3e0e319}
-      \strng{fullhash}{987670d6bb90ba8666ff5800986e9217}
-      \strng{fullhashraw}{987670d6bb90ba8666ff5800986e9217}
-      \strng{bibnamehash}{987670d6bb90ba8666ff5800986e9217}
-      \strng{authorbibnamehash}{987670d6bb90ba8666ff5800986e9217}
-      \strng{authornamehash}{893baf9605c09546099645f6d3e0e319}
-      \strng{authorfullhash}{987670d6bb90ba8666ff5800986e9217}
-      \strng{authorfullhashraw}{987670d6bb90ba8666ff5800986e9217}
+      \strng{namehash}{fa94241668fc898f8b7466341bed8d71}
+      \strng{fullhash}{3e8bca1593c8d1b4999e07c6678bf832}
+      \strng{fullhashraw}{3e8bca1593c8d1b4999e07c6678bf832}
+      \strng{bibnamehash}{3e8bca1593c8d1b4999e07c6678bf832}
+      \strng{authorbibnamehash}{3e8bca1593c8d1b4999e07c6678bf832}
+      \strng{authornamehash}{fa94241668fc898f8b7466341bed8d71}
+      \strng{authorfullhash}{3e8bca1593c8d1b4999e07c6678bf832}
+      \strng{authorfullhashraw}{3e8bca1593c8d1b4999e07c6678bf832}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{\textbf{ICML 2026}}
-      \field{note}{\textbf{\href{https://icml.cc/virtual/2026/awards_detail\#event-60766}{Outstanding Paper Honorable Mention}} (top 7 of 23,918 submissions), Oral}
+      \field{note}{\textbf{\href{https://icml.cc/virtual/2026/awards_detail\#event-60766}{Outstanding Paper Honorable Mention}} (top 7 of 23,918 submissions), \textbf{Oral}}
       \field{sortyear}{2026}
       \field{title}{{The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes}}
-      \true{nocite}
     \endentry
     \entry{taufeeque2026path}{inproceedings}{}{}
       \name{author}{4}{}{%
@@ -88,7 +87,6 @@
       \strng{authornamehash}{893baf9605c09546099645f6d3e0e319}
       \strng{authorfullhash}{2437b0add1a83a77e48451ae66577f97}
       \strng{authorfullhashraw}{2437b0add1a83a77e48451ae66577f97}
-      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -97,7 +95,6 @@
       \field{note}{\textbf{Spotlight at Mechanistic Interpretability Workshop, NeurIPS 2025}}
       \field{sortyear}{2026}
       \field{title}{{Path Channels and Plan Extension Kernels: a Mechanistic Description of Planning in a Sokoban {RNN}}}
-      \true{nocite}
     \endentry
     \entry{pmlr-v235-tamkin24a}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -134,7 +131,6 @@
       \field{month}{21--27 Jul}
       \field{sortyear}{2024}
       \field{title}{{Codebook Features: Sparse and Discrete Interpretability for Neural Networks}}
-      \true{nocite}
       \verb{file}
       \verb https://raw.githubusercontent.com/mlresearch/v235/main/assets/tamkin24a/tamkin24a.pdf
       \endverb
@@ -197,7 +193,7 @@
       \field{labeltitlesource}{title}
       \field{note}{\textbf{Mechanistic Interpretability Workshop, ICML 2024}}
       \field{sortyear}{2024}
-      \field{title}{{Planning in a recurrent neural network that plays Sokoban}}
+      \field{title}{{Planning in a Recurrent Neural Network That Plays Sokoban}}
       \true{nocite}
     \endentry
     \entry{pelrine2023exploiting}{inproceedings}{}{}
@@ -414,13 +410,14 @@
       \strng{authornamehash}{fa94241668fc898f8b7466341bed8d71}
       \strng{authorfullhash}{b4d4d19140b1abed5a6b21b581689b40}
       \strng{authorfullhashraw}{b4d4d19140b1abed5a6b21b581689b40}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{\textbf{SPIE Medical Imaging 2021}}
       \field{sortyear}{2021}
-      \field{title}{{Multi-camera, multi-person, and real-time fall detection using long short term memory}}
+      \field{title}{{Multi-Camera, Multi-Person, and Real-Time Fall Detection Using Long Short-Term Memory}}
       \true{nocite}
       \verb{doi}
       \verb 10.1117/12.2580700

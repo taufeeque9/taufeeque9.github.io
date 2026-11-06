@@ -74,8 +74,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -213,6 +213,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/needspace/needspace.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/needspace/needspace.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/csquotes/csquotes.def
